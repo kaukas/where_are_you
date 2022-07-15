@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "where_are_you"
+require "where_are_you/cli"
+
+WhereAreYou::Cli.call(STDIN, ARGV) # rubocop:disable Style/GlobalStdStream
